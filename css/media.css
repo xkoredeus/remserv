@@ -1,0 +1,218 @@
+@media only screen and (max-width: 1402px) {
+	.serv::before {
+		right: -20%;
+	}
+}
+@media only screen and (max-width: 1272px) {
+	.main-slider .owl-carousel .owl-nav button.owl-prev {
+		left: 10px;
+	}
+	.main-slider .owl-carousel .owl-nav button.owl-next {
+		right: 10px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.map {
+		display: none;
+	}
+	.key__item {
+		width: 100%;
+		margin: 15px auto;
+	}
+	.serv .section__ttl,
+	.serv .serv__descr {
+		text-align: center;
+		background-color: #8c819e;
+	}
+}
+@media only screen and (max-width: 996px) {
+	body {
+		overflow-x: hidden;
+	}
+	.header__top-container {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	    justify-content: center;
+	}
+	.header__hamburger {
+	    display: block;
+	}
+	.owl-carousel .owl-nav button.owl-prev {
+		left: 0;
+	}
+	.owl-carousel .owl-nav button.owl-next {
+		right: 0;
+	}
+	
+}
+@media only screen and (max-width: 768px) {
+	section {
+		padding: 25px 0;
+	}
+	.section__ttl {
+		font-size: 27px;
+	}
+	.cat__cnt,
+	.supply__cnt {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+		.cat__item-wrp {
+			width: 50%;
+		}
+		.supply__item {
+			width: 33%;
+			max-width: 180px;
+		}
+	
+	.auto-calc__slider.owl-carousel .owl-nav button.owl-next,
+	.cert__slider.owl-carousel .owl-nav button.owl-next,
+	.part__slider.owl-carousel .owl-nav button.owl-next {
+		right: 0;
+	}
+	.auto-calc__slider.owl-carousel .owl-nav button.owl-prev,
+	.cert__slider.owl-carousel .owl-nav button.owl-prev,
+	.part__slider.owl-carousel .owl-nav button.owl-prev {
+		left: 0;
+	}
+	.adj .owl-carousel .owl-nav button.owl-next, 
+	.adj .owl-carousel .owl-nav button.owl-prev {
+	    background-color: #EE414F;
+	}
+	.serv {
+		margin-bottom: 110px;
+	}
+	.serv__cnt {
+		margin: auto;
+	}
+	.cons__container::before,
+	.cons__info {
+		display: none;
+	}
+	.footer__models {
+		display: none;
+	}
+	.footer__about, .footer__contacts {
+		width: 58%;
+	}
+	.cons__form .input__wrp {
+		width: 100%;
+	}
+	.cons__submit {
+		margin: auto;
+		display: block;
+	}
+	.sys__ttl {
+		font-size: 27px;
+	}
+	.sys__subttl {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	.sys__btn {
+		padding: 17px 10px;
+	}
+}
+@media only screen and (max-width: 658px) {
+	.about__cnt {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+	}
+		.about__info {
+			width: 97%;
+			max-width: 360px;
+		}
+		.about__list {
+			width: 100%;
+		}
+	.serv__item {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+	}
+		.serv__img {
+			margin-right: 0;
+			margin-bottom: 15px;
+		}
+		.serv__info {
+			width: 100%;
+			max-width: 360px;
+			margin: auto;
+			text-align: center;
+		}
+		.about__item {
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			-webkit-flex-direction: column;
+			-moz-flex-direction: column;
+			-ms-flex-direction: column;
+			-o-flex-direction: column;
+			flex-direction: column;
+			-ms-align-items: center;
+			align-items: center;
+		}
+	.key__in {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.key__info .btn {
+		padding: 17px 10px;
+		font-size: 11px;
+	}
+}
+@media only screen and (max-width: 570px) {
+	.footer__bot {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+	}
+		.footer__copy {
+			margin-left: 0;
+			margin-top: 15px;
+		}
+		.footer__copy::before {
+			display: none;
+		}
+	.sys__cnt {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+		.sys__cnt .tabs__list {
+		    width: 100%;
+		    text-align: center;
+		}
+			.sys__cnt .tabs__list li {
+				padding: 5px 0;
+			}
+}
